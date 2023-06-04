@@ -1,0 +1,124 @@
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+ERROR:django.request:Internal Server Error: /download_presentation/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 392, in download_presentation
+    with io.open(pre_name, 'rb') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads/diploma_presentation.pptx'
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+ERROR:django.request:Internal Server Error: /download1/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 371, in download_document1
+    defense = Defense.objects.get(student=student)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+bboard2.models.Defense.DoesNotExist: Defense matching query does not exist.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /download1/1/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\virtualenv\diploma\bboard2\views.py", line 412, in download_document1
+    grade = round(gradee)
+TypeError: type NoneType doesn't define __round__ method
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+<<<<<<< HEAD
+ERROR:django.request:Internal Server Error: /download1/1/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\virtualenv\diploma\bboard2\views.py", line 554, in download_document1
+    com1 = Grade.objects.get(commission=1, student=student).question
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 439, in get
+    raise self.model.DoesNotExist(
+bboard2.models.Grade.DoesNotExist: Grade matching query does not exist.
+=======
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+<<<<<<< HEAD
+>>>>>>> 41f635a3aeba41db632f74a8bf8543b8959e0b5b
+=======
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+ERROR:django.request:Internal Server Error: /download/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 507, in download_document
+    "fch": fch,
+NameError: name 'fch' is not defined
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_1.docx
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_1.docx
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_2.docx
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_1.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+>>>>>>> 33b77bf7b1f4ecc6a066ab01c83370655a72875f
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_1.docx
+DEBUG:root:Document name: \u04d8лішер_Отаров_Протокол_1.docx
+DEBUG:root:Document name: \u04d8лішер_Отаров_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: \u04d8лішер_Отаров_Протокол_1.docx
+DEBUG:root:Document name: \u04d8лішер_Отаров_Протокол_2.docx
+DEBUG:root:Document name: Сезім_\u049aамит_Протокол_1.docx
+DEBUG:root:Document name: Сезім_\u049aамит_Протокол_2.docx
+ERROR:django.request:Internal Server Error: /download3/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 751, in download_document3
+    defense = Defense.objects.get(student=student)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+bboard2.models.Defense.DoesNotExist: Defense matching query does not exist.

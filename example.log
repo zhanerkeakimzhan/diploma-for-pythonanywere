@@ -1,0 +1,714 @@
+WARNING:django.request:Not Found: //download/1//
+DEBUG:PIL.TiffImagePlugin:tag: ImageWidth (256) - type: short (3) - value: b'\th'
+DEBUG:PIL.TiffImagePlugin:tag: ImageLength (257) - type: short (3) - value: b'\x048'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 46 - Data Location: 74 - value: <table: 38 bytes>
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00p'
+DEBUG:PIL.TiffImagePlugin:tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ImageWidth (256) - type: short (3) - value: b'\t`'
+DEBUG:PIL.TiffImagePlugin:tag: ImageLength (257) - type: short (3) - value: b'\x048'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 46 - Data Location: 74 - value: <table: 38 bytes>
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00p'
+DEBUG:PIL.TiffImagePlugin:tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ImageWidth (256) - type: short (3) - value: b'\t`'
+DEBUG:PIL.TiffImagePlugin:tag: ImageLength (257) - type: short (3) - value: b'\x048'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 46 - Data Location: 74 - value: <table: 38 bytes>
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00p'
+DEBUG:PIL.TiffImagePlugin:tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_2.docx
+ERROR:django.request:Internal Server Error: //download_presentation/1//
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 135, in download_presentation
+    pre_name = presentation.file_field.name
+AttributeError: 'FieldFile' object has no attribute 'file_field'
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_2.docx
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_2.docx
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\models.py changed, reloading.
+<<<<<<< HEAD
+DEBUG:root:Document name: Алия_Нурмаханова_Протокол_2.docx
+ERROR:django.request:Internal Server Error: //add/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 268, in add_student
+    stud.save()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1819, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1743, in as_sql
+    value_rows = [
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1744, in <listcomp>
+    [
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1745, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1684, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 1469, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 1430, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['Значение “уыпквпм” имеет неверный формат даты. Оно должно быть в формате YYYY-MM-DD.']
+ERROR:django.request:Internal Server Error: //student/2/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 70, in student_page
+    return render(request, 'student_page.html', context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'img' attribute has no file associated with it.
+=======
+WARNING:django.request:Not Found: //download/2//
+WARNING:django.request:Not Found: //download/2//
+INFO:django.utils.autoreload:C:\Users\ASUS\virtualenv\diploma\bboard2\views.py changed, reloading.
+WARNING:django.request:Not Found: //download/2//
+WARNING:django.request:Not Found: //download/1//
+INFO:django.utils.autoreload:C:\Users\ASUS\virtualenv\diploma\bboard2\views.py changed, reloading.
+>>>>>>> a0b1a5d4dc16a738a5c163c153b2cd96b254a94e
+WARNING:django.request:Not Found: /download/1/
+WARNING:django.request:Not Found: /download/1/
+ERROR:django.request:Internal Server Error: /download/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 120, in download_document
+    commission1 = get_object_or_404(Commissions, id=1)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /download/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 120, in download_document
+    commission1 = get_object_or_404(Commissions, id=5)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+ERROR:django.request:Internal Server Error: /download/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 119, in download_document
+    commission1 = get_object_or_404(Commissions, id=5)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+ERROR:django.request:Internal Server Error: /admin/bboard2/commissions/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+WARNING:django.request:Not Found: /accounts/login/
+ERROR:django.request:Internal Server Error: /download/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 119, in download_document
+    commission1 = get_object_or_404(Commissions, id=5)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /download/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 118, in download_document
+    commission1 = get_object_or_404(Commissions, id=5)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+ERROR:django.request:Internal Server Error: /admin/bboard2/commissions/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+ERROR:django.request:Internal Server Error: /admin/bboard2/commissions/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+ERROR:django.request:Internal Server Error: /admin/bboard2/commissions/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\manage.py changed, reloading.
+ERROR:django.request:Internal Server Error: /download/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 118, in download_document
+    commission1 = get_object_or_404(Commissions, id=5)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ОШИБКА:  столбец bboard2_commissions.user_id не существует
+LINE 1: ...sions"."email", "bboard2_commissions"."initials", "bboard2_c...
+                                                             ^
+HINT:  Возможно, предполагалась ссылка на столбец "bboard2_commissions.user".
+
+WARNING:django.request:Not Found: /download/1/
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+ERROR:django.request:Internal Server Error: /download/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 163, in download_document
+    if 100 >= grade >= 95:
+TypeError: '>=' not supported between instances of 'int' and 'NoneType'
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /download/1/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py", line 312, in download_document
+    d1 = student.date("%d.%m.%Y")
+TypeError: 'datetime.date' object is not callable
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
+DEBUG:root:Document name: Жанерке_\u04d8кімжан_Протокол_2.docx
+INFO:django.utils.autoreload:D:\Zhanerke Akimzhan\Документы\code\dipl\bboard2\views.py changed, reloading.
